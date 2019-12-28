@@ -1,0 +1,40 @@
+<snippet>
+	<content><![CDATA[
+
+bool sol(ll mid)
+{
+	
+	${1:}
+	return 0;
+}
+
+ll BS()
+{
+       ll  start=0,end = ${2:},ans=-1,mid;
+       while(start<=end)
+       {
+           mid= start + (end-start)/2;
+         
+           if(sol(mid))
+           {
+             //cout<<"In sol with "<<mid<<" "<<start<<" "<<end<<" "<<endl;
+                start = mid+1; 
+                 ans = mid;
+           }
+           else
+           {
+               end = mid-1;
+           }
+           
+       }
+       return ans;
+}
+
+
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>bsf</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
