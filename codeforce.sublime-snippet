@@ -19,6 +19,7 @@ void print()
 { 
     cout <<""<<endl;
 } 
+#define MOD 1000000007
   
 // Variadic function Template that takes  
 // variable number of arguments and prints 
