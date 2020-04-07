@@ -16,7 +16,6 @@ void sieve(int N)
               }
         }
 }
-sieve(1000000);
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>SieveOfEratosthenes</tabTrigger>
